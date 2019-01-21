@@ -1,7 +1,13 @@
 #jumbo {
     background-image: url(aham.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#publication {
+    font-style: italic;
 }
 
 h1 {
