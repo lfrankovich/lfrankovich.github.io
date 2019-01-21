@@ -1,0 +1,9 @@
+#jumbo {
+    background-image: url(aham.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: goldenrod;
+}
