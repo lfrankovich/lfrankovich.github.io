@@ -4,6 +4,7 @@
     background-position: top;
     color: white;
     text-shadow: 2px 2px 2px black;
+    text-align: center
 }
 
 #publication {
@@ -11,5 +12,8 @@
 }
 
 h1 {
-    color: goldenrod;
+    color: rgb(2, 1, 0);
+}
+#button {
+    text-align: right
 }
