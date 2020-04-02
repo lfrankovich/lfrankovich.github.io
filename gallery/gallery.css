@@ -18,3 +18,15 @@ body {
 .navbar-inverse .navbar-brand {
     color: white;
 }
+
+.blurb {
+    padding-top: 30px;
+}
+
+.hawaii {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 30px;
+}
