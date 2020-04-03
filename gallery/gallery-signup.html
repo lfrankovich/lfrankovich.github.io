@@ -37,12 +37,37 @@
     <div class="container">
 
             <div>
-                <h1 class="pad">About</h1>
-                
-                <p>Lauren is an "all things Hawaii" enthusiast! Her love for the islands all started on a college choir trip to Honolulu. After her first trip, she returned many years later for a wedding. This time, she decided to add on Kauai, which became her favorite of all the islands. On her third trip, Lauren and her husband hosted a friendsmoon, and twenty of their closest friends tagged along, essentially crashing their honeymoon. Don't worry. Lauren made sure to island hop to Maui alone with her husband for the final week of the amazing trip.</p>
+                    <h1 class="pad">Sign-up for E-newsletter</h1>   
 
-                <img class="hawaii" src="ocean2.jpg">
-            </div>
+                    <form>
+                        <label for="First">First Name:</label>
+                        <input name="first" id="First" type="text" placeholder="john" required>
+                      
+                    <div>
+                        <label for="Last">Last Name:</label>
+                        <input name="last" id="Last" type="text" required>
+                    </div>
+
+                      <div>
+                        <label for="Email">Email:</label>
+                        <input name="email" id="Email" type="email" required>
+                    </div>
+                    
+                    <div>
+                        <label for="Phone">Phone Number:</label>
+                        <input name="phone" id="Phone" type="tel" required
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        <small>Format: 123-456-7890</small>
+                    </div>
+                     
+                    </div>
+                      <button type="button" class="btn btn-primary btn-md active">Submit
+                      </button>
+                    </div>
+                    
+                    </form>
+                    
+        </div>
        
       
     </div>
