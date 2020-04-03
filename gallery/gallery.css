@@ -19,14 +19,14 @@ body {
     color: white;
 }
 
-.blurb {
-    padding-top: 30px;
+.pad {
+    padding-bottom: 20px;
 }
 
 .hawaii {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    padding-top: 30px;
+    width: 100%;
+    padding-top: 20px;
 }
