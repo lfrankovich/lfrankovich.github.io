@@ -10,7 +10,7 @@ html {
     height: 100%;
 }
 
-#content {
+.content {
     text-align: center;
     padding-top: 25%;
 }
@@ -32,3 +32,20 @@ hr {
     width: 400px;
 }
 
+#mainNavbar {
+    font-size: 1.20rem;
+}
+
+#mainNavbar .nav-link {
+    color: #cad2d9;
+}
+
+#mainNavbar .nav-link:hover {
+    color: black;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
