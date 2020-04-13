@@ -34,3 +34,7 @@ body {
 .space {
     padding-top: 30px;
 }
+
+.textarea:focus {
+    background-color: #fff6ea;
+}
